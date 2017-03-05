@@ -1,7 +1,5 @@
-FROM prologic/python-runtime:2.7-onbuild
+FROM ubuntu
 
-EXPOSE 80
 RUN chmod +x runner.sh
 RUN ./runner.sh
-ENTRYPOINT ["hello.py"]
 CMD []
