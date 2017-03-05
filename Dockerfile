@@ -1,6 +1,6 @@
 FROM ubuntu
 
-ADD .
+ADD . .
 RUN chmod +x runner.sh
 RUN ./runner.sh
 CMD []
